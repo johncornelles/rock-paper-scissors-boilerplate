@@ -6,6 +6,7 @@ const compdiv = document.querySelector(".compimage");
 const scores = document.querySelector(".scores");
 const result = document.querySelector(".results");
 const res = document.querySelector(".res")
+const symbols = document.querySelector(".symbols")
 
 var playerchoice = "";
 var computerchoice = "";
@@ -18,6 +19,8 @@ function updatescore() {
     
     if (playerscore >= 5 || computerscore >= 5) {
         result.style.visibility = "visible";
+        symbols.style.visibility = "hidden"
+
         if (playerscore >= 5) {
             res.textContent = "You won the game";
         } else {
