@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./secondstylesheet.css">
+</head>
+<body style="background-image: url(./assets/bg.png);">
+    <div class="scores">0 - 0</div>
+    <div class="contents">
+        <div class="you">
+            <div class="youtext">you</div>
+            <div class="selectedimage">
+                
+            </div>
+            <div class="symbols">
+                <div onclick="display(1)" class="icons rock"><img src="./assets/rock-logo.png" alt=""></div>
+                <div onclick="display(2)" class="icons paper"><img src="./assets/paper-logo.png" alt=""></div>
+                <div onclick="display(3)" class="icons scissor"><img src="./assets/scissors-logo.png" alt=""></div>
+            </div>
+        </div>
+        <div class="versus"><img height="550px" src="./assets/vs.png" alt=""></div>
+        <div class="comp">
+            <div class="comptext">Comp</div>
+            <div class="compimage"></div>
+        </div>
+    </div>
+
+    <div class="results">
+        <div class="res">You won the game</div>
+        <div onclick="location.reload()" class="playagain">Play again</div>
+    </div>
+</body>
+</html>
+<script src="./script.js"></script>

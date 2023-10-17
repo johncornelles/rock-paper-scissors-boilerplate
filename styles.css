@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fredoka:wght@300&family=Pacifico&family=Poppins:ital,wght@0,500;1,100&display=swap');
+
+*{
+    font-family: 'Caveat Brush', cursive;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+.cont{
+    text-align: center;    
+    margin-top: 100px;
+}
+
+.container{
+    max-width: 900px;
+    display: flex;
+    padding-left: 300px;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.playgame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.playtext{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
